@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* outline: 1px solid black; */
+}
+
+header {
+    margin: 15px;
+    text-align: center;
+}
+
+#barreheader {
+    background-color: #5124ff;
+    height: 120px;
+    width: 100%;
+    color: white;
+}
+
+#barreheader h1 {
+    position: relative;
+    top: 40%;
+    right: 450px;
+    ;
+}
+
+#navmenu li a {
+    color: white;
+    margin-right: 30px;
+}
+
+#navmenu li {
+    color: white;
+    margin-right: 50px;
+}
+
+#navmenu {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 100px;
+    margin-top: 20px;
+    align-content: center;
+    align-items: center;
+}
+
+#logo {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-top: 17px;
+    margin-left: 25px;
+    ;
+}
+
+.aside {
+    border: 1px solid black;
+    width: 150px;
+    height: 100%;
+    margin-left: 15px;
+    text-align: center;
+}
+
+#temoin {
+    color: #5124ff;
+    margin-top: 15px;
+    display: block;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.boxtem {
+    border: 1px solid black;
+    text-align: left;
+    padding: 5px;
+}
+
+.avis {
+    color: red;
+    text-decoration: underline;
+}
+
+.name {
+    color: #5124ff;
+    font-family: cursive;
+}
+
+.main {
+    border: 1px solid black;
+    width: 70%;
+    height: 40%;
+    position: relative;
+    top: -700px;
+    left: 260px;
+    text-align: justify;
+    padding: 10px;
+}
+
+#clef {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+#clef2 {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+#clef3 {
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+
+#clef4 {
+    width: 60px;
+    height: 60px;
+    float: right;
+}
+
+#textemain {}
