@@ -75,8 +75,7 @@ header ul li {
 .form input {
     padding: 20px;
     border-radius: 100px;
-    border: 1px solid rgba(0, 0, 0, 0.637);
-    
+    border: 1px solid rgba(0, 0, 0, 0.637);    
     box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.185);
     width: 300px;
 }
