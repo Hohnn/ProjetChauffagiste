@@ -46,7 +46,7 @@ header ul li {
 
 .container {
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .container p:first-child {
@@ -79,7 +79,17 @@ footer {
     color: white;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
     padding: 0 50px;
-    margin-top: 70px;
+}
+
+footer .call img {
+    width: 30px;
+}
+
+footer .call {
+    display: flex;
+    width: 230px;
+    justify-content: space-evenly;
+    align-items: center;
 }
