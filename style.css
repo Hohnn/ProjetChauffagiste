@@ -121,6 +121,7 @@
         width: 15px;
         margin: 2px;
         padding: 2px;
+        border-radius: 5px;
     }
 
     .none {
@@ -194,10 +195,13 @@
         display: flex;
         flex-direction: column;
         padding: 30px 20px;
-        margin-top: -100px;
         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.336);
         border-radius: 5px;
-        margin-left: 100px;
+        background-image: url(./images/depannage.jpg);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     
@@ -208,7 +212,6 @@
         background-size: cover;
         background-position: center center;
         margin-left: 10px;
-        margin-top: -100px;
         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.336);
         border-radius: 5px;
         display: flex;
@@ -221,6 +224,15 @@
         margin: 0 auto;
         margin-bottom: 100px;
         justify-content: center;
+    }
+
+    section a {
+        margin-top: -100px;
+        margin-left: 100px;
+    }
+
+    section h2 {
+        text-shadow: 0 5px 5px black;
     }
     
     .photosoffres {
@@ -236,14 +248,17 @@
         font-size: 2em;
     }
     
-    .sav span {
+    .sav h2 {
         width: 100%;
         text-align: center;
-        color: rgba(0, 0, 0, 0.774);
+        color: white;
     }
     
     .photosoffres img {
-        height: 50px;
+        height: 80px;
+        padding: 15px;
+        background-color: white;
+        border-radius: 15px;
     }
     
     #vente1 {
