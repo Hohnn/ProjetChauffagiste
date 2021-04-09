@@ -1,15 +1,7 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    max-width: 100vw;
 }
-
-a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
 .header{
     background-color: #6650FF;
     display: flex;
@@ -17,37 +9,70 @@ a {
     height: 80px;
     align-items: center;
     justify-content: space-between;
+    font-weight: bold;
 }
-
 .logo{
-    padding:0 50px;
     display: flex;
     align-items: center;
+    padding:0 50px;
 }
-
-.logo img {
-    margin-right: 10px;
-}
-
 .container1{
-    display: flex;
-    height: 450px;
+display: flex;
+height: 500px;
 }
 
 .box1{
-    padding: 80px;
-    width: 50%;
+    width: 28%;
 }
-
-.box2{
-    width: 50%;
-    padding: 80px;
-}
-
 .logo img{
     height: 60px;
 }
-
+.nav{
+    display: flex;
+    list-style-type: none;
+    margin: 0 20px;
+    padding: 70px;
+}
+.nav li{
+    margin: 0 20px;
+}
+.container2{
+display: flex;
+height: 500px;
+}
+.box3{
+    width: 28%;
+}
+.box4{
+    width: 28%;
+}
+.nav a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.text{
+    padding-top: 170px;
+    margin-right: 8%;
+    width: 28%;
+}   
+.box1 img{
+    height: 300px;
+    margin: 100px;
+    margin-left: 99px;
+}
+.box2 img{
+    height: 300px;
+    margin: 100px;
+    margin-left: 100px;
+}
+.box2{
+    width: 28%;
+}
+.box3 img{
+    height: 300px;
+    margin: 100px;
+    margin-left: 100px;
+}
 .button {
     background-color:#6650FF;
     border-radius: 100px;
@@ -56,34 +81,22 @@ a {
     color: #FFFFFF;
     border: none;
 }
-
-#nav{
-    display: flex;
-    list-style-type: none;
-    margin-right: 70px;
-    
+.text input{
+    background-color:#6650FF;
+    border-radius: 100px;
+    padding: 10px;
+    font-size: 15px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    outline: 0;
 }
-
-.container2{
-    display: flex;
-    height: 450px;
-    margin-bottom: 70px;
+.box4 img{
+    height: 300px;
+    margin: 100px;
+    margin-left: 100px;
 }
-
-.box3{
-    width: 50%;
-    padding: 80px;
-}
-
-.box4{
-    width: 50%;
-    padding: 80px;
-}
-
-#nav li{
-    margin:0 10px;
-}
-
 footer {
     height: 80px;
     background-color: #292148;
@@ -103,4 +116,7 @@ footer .call {
     width: 230px;
     justify-content: space-evenly;
     align-items: center;
+}
+.logo img{
+    margin-right: 20px;
 }
