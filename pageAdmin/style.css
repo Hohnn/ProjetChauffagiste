@@ -106,6 +106,9 @@ footer .call {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .login label {
@@ -115,7 +118,7 @@ footer .call {
 }
 
 .blur {
-    filter: blur(2px);
+    filter: blur(3px);
 }
 
 .hide {
@@ -125,3 +128,5 @@ footer .call {
 .blurNo {
     filter: blur(0px) !important;
 }
+
+
