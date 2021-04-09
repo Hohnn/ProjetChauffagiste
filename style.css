@@ -43,13 +43,15 @@
     }
     
     #manuhe {
-        font-size: 4em;
+        font-size: 4.2em;
         color: silver;
         margin-left: 0px;
+        font-family: 'Architects Daughter';
     }
     
     #rec {
         width: 300px;
+        margin-top: -20px;
     }
     
     #div1 {
@@ -119,6 +121,38 @@
         border-radius: 5px;
     }
     
+    .box img {
+        background-color: red;
+        width: 15px;
+        margin: 2px;
+        padding: 2px;
+    }
+    /* .star {
+        background-color: green;
+        width: 13px;
+        height: 15px;
+        margin: 2px;
+    } */
+    /* .star img {
+        background-color: red;
+    } */
+    
+    .boxstar {
+        display: flex;
+        /* margin: 2px; */
+        /* width: 15px; */
+        /* background-color: red; */
+        align-items: center;
+        margin-top: 5px;
+    }
+    
+    .stargrise {
+        background-color: grey;
+        width: 15px;
+        height: 15px;
+        margin: 2px;
+    }
+    
     #temoin {
         margin-top: 10px;
         text-decoration: underline;
@@ -147,7 +181,6 @@
     }
     
     .conteneur1 {
-        /* outline: 1px solid black; */
         display: flex;
         margin-left: 20px;
     }
@@ -239,7 +272,7 @@
     }
     
     .sav p:first-of-type {
-        color: red;
+        color: black;
     }
     
     .fixed {
