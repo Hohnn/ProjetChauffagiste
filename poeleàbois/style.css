@@ -9,11 +9,12 @@ body {
     height: 80px;
     align-items: center;
     justify-content: space-between;
+    font-weight: bold;
 }
 .logo{
-    padding:0 50px;
     display: flex;
     align-items: center;
+    padding:0 50px;
 }
 .container1{
 display: flex;
@@ -29,7 +30,11 @@ height: 500px;
 .nav{
     display: flex;
     list-style-type: none;
-    margin:0 10px;  
+    margin: 0 20px;
+    padding: 70px;
+}
+.nav li{
+    margin: 0 20px;
 }
 .container2{
 display: flex;
@@ -40,9 +45,6 @@ height: 500px;
 }
 .box4{
     width: 28%;
-}
-.nav li{
-    margin:0 10px;
 }
 .nav a{
     color: #FFFFFF;
@@ -114,4 +116,7 @@ footer .call {
     width: 230px;
     justify-content: space-evenly;
     align-items: center;
+}
+.logo img{
+    margin-right: 20px;
 }
