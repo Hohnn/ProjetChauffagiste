@@ -4,6 +4,12 @@
 
 a {
     text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+a:hover {
+    opacity: 0.7;
 }
 
 html, body {
@@ -106,6 +112,9 @@ footer .call {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .login label {
@@ -115,7 +124,7 @@ footer .call {
 }
 
 .blur {
-    filter: blur(2px);
+    filter: blur(3px);
 }
 
 .hide {
@@ -125,3 +134,5 @@ footer .call {
 .blurNo {
     filter: blur(0px) !important;
 }
+
+

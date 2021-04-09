@@ -3,6 +3,16 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+a {
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
 .header{
     background-color: #6650FF;
     display: flex;
@@ -10,6 +20,7 @@ body {
     height: 80px;
     align-items: center;
     justify-content: space-between;
+    font-weight: bold;
 }
 .logo{
     padding:0 50px;
@@ -19,10 +30,11 @@ body {
 .nav{
     list-style-type: none;
     display: flex;
-    margin:0 10px;
+    margin:0 20px;
+    padding: 70px;
 }
 .nav li{
-    margin: 0 10px;
+    margin: 0 20px;
 }
 .container1{
     display: flex;
@@ -131,3 +143,7 @@ footer .call {
     width: 230px;
     justify-content: space-evenly;
     align-items: center;
+}
+.logo img{
+    margin-right: 20px;
+}
